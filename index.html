@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Computer Store</title>
 </head>
-<body>
-    
+<body id="">
+    <div id="topborder">Computer Store</div>
+    <div class="container">
+        <div class="containercard">
+            <p id="bank">Bank</p>
+            <p id="loan"></p>
+            <p id="balance"></p> 
+            <div class="buttonContainer">
+                <button id="loanButton">Apply for loan</button>
+            </div>
+        </div>
+        <div class="containercard">
+            <p id="work">Work</p>
+            <p id="pay"></p>
+            <div class="buttonContainer">
+                <button id="bankButton">Bank</button>
+                <button id="workButton">Work</button>
+            </div>
+        </div>
+        <div class="containercard">
+            <p id="inventory">Inventory</p>
+            <form>
+                <select id="computerSelect" ></select>
+                <p>Features</p>
+                <div id="list"></div>
+
+            </form>
+        </div>  
+    </div>
+
+    <div class="computerContainer">
+            <div>
+                <img id="compImg" src="" class="compContImg">
+            </div>
+            <div class="compBox">
+                <h1 id="compName"></h1>
+                <p id="compDesc" class="computerDesc"></p>
+            </div>
+            <div id="priceBox">
+            </div>
+            <div>
+                <div class="buyButton">
+                    <p id="price"></p>
+                    <button id="buyButton">Buy</button>
+                </div>
+            </div>
+    </div>
+    <script src="computer.js"></script>
+    <script src="application.js"></script>
 </body>
 </html>

@@ -147,7 +147,7 @@ function buyComputer() {
     if (bankValue >= price) {
         bankValue -= price;
         printMoneyInfo();
-        alert('You bought a new computer: ' + computers[index].getName);
+        alert('You bought a new computer: ' + computers[index].getName());
 
     } else {
         alert('You do not have enough money to buy the selected computer.')
